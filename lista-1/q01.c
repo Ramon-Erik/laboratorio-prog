@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-	float x;
+	int x;
 	
 	puts("Um número:");
-	scanf("%f", &x);
+	scanf("%d", &x);
 
-	printf("Hexa: %x", hex(x));
+	// printf("Hexa: %x", hex(x));
 	return 0;
 }
